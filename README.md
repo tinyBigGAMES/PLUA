@@ -2,7 +2,7 @@
 [![Chat on Discord](https://img.shields.io/discord/754884471324672040?style=for-the-badge)](https://discord.gg/tPWjMwK)
 [![Follow on Bluesky](https://img.shields.io/badge/Bluesky-tinyBigGAMES-blue?style=for-the-badge&logo=bluesky)](https://bsky.app/profile/tinyBigGAMES.bsky.social)
 
-PLUA is a lightweight and powerful 📦 that integrates LuaJIT scripting into Delphi, enabling you to easily add a scripting layer to your Delphi apps. Whether you're building dynamic software 🖥️, adding mod support 🛠️, or simply looking for a way to make your apps more flexible and customizable, PLUA makes this possible through simple, straightforward APIs.
+PLUA is a lightweight and powerful 📦 that integrates LuaJIT scripting into <a href="https://www.embarcadero.com/products/delphi" target="_blank">Delphi</a>, enabling you to easily add a scripting layer to your Delphi apps. Whether you're building dynamic software 🖥️, adding mod support 🛠️, or simply looking for a way to make your apps more flexible and customizable, PLUA makes this possible through simple, straightforward APIs.
 
 ## 📑 Table of Contents
 - [📘 Introduction](#introduction)
@@ -41,7 +41,7 @@ This library is designed to make integrating Lua into Delphi applications as sea
 This section will help you get PLUA up and running in your Delphi environment.
 
 ### Prerequisites
-- **Delphi 12.2 or higher** 🖥️
+- **Delphi 12 CE or higher** 🖥️
 - **Windows 10 or higher** 🪟
 - **Tested on Windows 11 64-bit (23H2), Delphi 12.2** ✅
 
