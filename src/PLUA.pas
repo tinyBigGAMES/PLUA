@@ -890,11 +890,11 @@ begin
   case AType of
     vtInteger:
       begin
-        Result := lua_tointeger(FLua.State, -1);
+        Result.AsInteger := lua_tointeger(FLua.State, -1);
       end;
     vtDouble:
       begin
-        Result := lua_tonumber(FLua.State, -1);
+        Result.AsNumber := lua_tonumber(FLua.State, -1);
       end;
     vtString:
       begin
@@ -903,11 +903,11 @@ begin
       end;
     vtPointer:
       begin
-        Result := lua_touserdata(FLua.State, -1);
+        Result.AsPointer := lua_touserdata(FLua.State, -1);
       end;
     vtBoolean:
       begin
-        Result := Boolean(lua_toboolean(FLua.State, -1));
+        Result.AsBoolean := Boolean(lua_toboolean(FLua.State, -1));
       end;
   end;
 
@@ -998,11 +998,11 @@ begin
   case AType of
     vtInteger:
       begin
-        Result := lua_tointeger(FLua.State, -1);
+        Result.AsInteger := lua_tointeger(FLua.State, -1);
       end;
     vtDouble:
       begin
-        Result := lua_tonumber(FLua.State, -1);
+        Result.AsNumber := lua_tonumber(FLua.State, -1);
       end;
     vtString:
       begin
@@ -1011,11 +1011,11 @@ begin
       end;
     vtPointer:
       begin
-        Result := lua_touserdata(FLua.State, -1);
+        Result.AsPointer := lua_touserdata(FLua.State, -1);
       end;
     vtBoolean:
       begin
-        Result := Boolean(lua_toboolean(FLua.State, -1));
+        Result.AsBoolean := Boolean(lua_toboolean(FLua.State, -1));
       end;
   end;
 
