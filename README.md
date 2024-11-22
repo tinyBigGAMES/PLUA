@@ -66,7 +66,7 @@ var
   Lua: TLua;
 begin
   Lua := TLua.Create();
-  Lua.LoadString('print("Hello from Lua!")');
+  Lua.LoadString('print("Hello from Lua!")', False);
   Lua.Run();  
   Lua.Free();
 end;
@@ -85,7 +85,7 @@ var
 begin
   Lua := TLua.Create();
   Lua.RegisterRoutine('DelphiRoutine', MyDelphiRoutine);
-  Lua.LoadString('DelphiRoutine()');
+  Lua.LoadString('DelphiRoutine()', False);
   Lua.Run();
   Lua.Free();
 end;
