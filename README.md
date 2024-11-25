@@ -1,6 +1,6 @@
 ![PLUS](media/plua.png)  
 [![Chat on Discord](https://img.shields.io/discord/754884471324672040?style=for-the-badge)](https://discord.gg/tPWjMwK)
-[![Follow on Bluesky](https://img.shields.io/badge/Bluesky-tinyBigGAMES-blue?style=for-the-badge&logo=bluesky)](https://bsky.app/profile/tinyBigGAMES.bsky.social)
+[![Follow on Bluesky](https://img.shields.io/badge/Bluesky-tinyBigGAMES-blue?style=for-the-badge&logo=bluesky)](https://bsky.app/profile/tinybiggames.com)
 
 PLUA is a lightweight and powerful 📦 that integrates LuaJIT scripting into <a href="https://www.embarcadero.com/products/delphi" target="_blank">Delphi</a>, enabling you to easily add a scripting layer to your Delphi apps. Whether you're building dynamic software 🖥️, adding mod support 🛠️, or simply looking for a way to make your apps more flexible and customizable, PLUA makes this possible through simple, straightforward APIs.
 
